@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+@import '@fontsource/atkinson-hyperlegible';
+
+@font-face {
+  font-family: 'Expensify New Kansas';
+  font-display: swap;
+  src: url('/fonts/serif.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Expensify New Kansas';
+  font-display: swap;
+  src: url('/fonts/serif-italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@theme {
+  --font-sans: 'Atkinson Hyperlegible', ui-sans-serif, sans-serif;
+  --font-serif: 'Expensify New Kansas', ui-serif, serif;
+  --color-gradient-daydream: linear-gradient(to bottom, #487DAB, #3F709A);
+  --color-daydream: #44DBC8;
+  --color-daydream-hover: #3CC2AF;
+  --color-dark: #4477A3;
+  --color-light: #FCF7C4;
+  --color-pink: #E472AB;
+  --color-pink-dark: #A65A80;
+}
+
+@keyframes hover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(var(--hover));
+  }
+}
+
+.animate-hover {
+  --hover: -0.5rem;
+  animation: hover 2s ease-in-out infinite alternate;
+}

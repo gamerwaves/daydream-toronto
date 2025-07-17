@@ -1,0 +1,134 @@
+/* Daydream Theme - Custom CSS for external websites */
+/* Import the serif font from daydream.hackclub.com */
+@import url('https://daydream.hackclub.com/fonts/serif.woff') format('woff');
+@import url('https://daydream.hackclub.com/fonts/serif-italic.woff') format('woff');
+
+/* Define the Daydream fonts */
+@font-face {
+  font-family: 'Expensify New Kansas';
+  font-display: swap;
+  src: url('https://daydream.hackclub.com/fonts/serif.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Expensify New Kansas';
+  font-display: swap;
+  src: url('https://daydream.hackclub.com/fonts/serif-italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Apply serif font to all headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Expensify New Kansas', ui-serif, serif !important;
+  color: #833710;
+  font-style: italic;
+}
+
+/* Question container styling - letter appearance */
+#question-container {
+  border-radius: 0px;
+  background-color: #fffbdf;
+  background-image: url('https://daydream.hackclub.com/letter-texture.png');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  border: 2px solid #d3b180;
+  color: #8B4513;
+}
+
+/* Button styling - matching the "get free stickers" button */
+[data-cy="button-component"] {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #E472AB;
+  border: none;
+  border-bottom: 2px solid #A65A80;
+  color: white;
+  border-radius: 9999px;
+  font-family: 'Atkinson Hyperlegible', ui-sans-serif, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.1s ease;
+  text-align: center;
+  min-width: max-content;
+}
+
+[data-cy="button-component"]:hover {
+  box-shadow: 0 2px 0 0 #A65A80;
+  transform: translateY(-2px);
+}
+
+[data-cy="button-component"]:active {
+  transform: translateY(2px);
+  border-bottom-color: transparent;
+  box-shadow: none;
+}
+
+[data-cy="button-component"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(228, 114, 171, 0.3);
+}
+
+/* Add cloud decoration to buttons */
+[data-cy="button-component"]::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 100%;
+  background-image: url('https://daydream.hackclub.com/button-clouds.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  pointer-events: none;
+}
+
+
+[data-cy="input-component"], div:has(> div > [data-cy="select-value-container"]), .ant-picker {
+  background-color: #fffef2;
+  border-color: rgba(211, 177, 128,0.5);
+  border-radius: 0px;
+}
+
+/* Additional Daydream color variables for use */
+:root {
+  --daydream-blue: #487DAB;
+  --daydream-blue-dark: #3F709A;
+  --daydream-teal: #44DBC8;
+  --daydream-teal-hover: #3CC2AF;
+  --daydream-dark: #4477A3;
+  --daydream-light: #FCF7C4;
+  --daydream-pink: #E472AB;
+  --daydream-pink-dark: #A65A80;
+  --daydream-bg-blue: #CCF4FD;
+  --daydream-bg-cream: #FCEFC5;
+  --daydream-text-brown: #8B4513;
+}
+
+#scrollable-widgets-wrapper {
+  background: url('https://daydream.hackclub.com/cloudy-bg-dim.png'), linear-gradient(to bottom, #CCF4FD, #AECDF6);
+  background-attachment: local !important;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+#undefined-error-sub-label {
+  color: #E472AB;
+}
+
+button {
+  box-shadow: none;
+}
+
+a {
+  color: #548abb;
+}

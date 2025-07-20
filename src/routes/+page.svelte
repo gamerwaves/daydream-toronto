@@ -428,7 +428,7 @@
 	
 	<div class="mt-8 flex flex-col items-center gap-3 z-10 max-md:scale-90">
 		<a
-			href="https://forms.hackclub.com/daydream-Toronto"
+			href="https://forms.hackclub.com/daydream-toronto"
 			target="_blank"
 			class="inline-block px-8 py-4 bg-pink border-b-4 border-b-pink-dark text-white rounded-full hover:shadow-[0_4px_0_0_theme(colors.pink.dark)] hover:-translate-y-[4px] active:border-transparent active:shadow-none active:translate-y-0 transition-all duration-100 font-sans text-xl cursor-pointer relative overflow-hidden"
 		>
@@ -593,7 +593,7 @@
 							Ready for an amazing weekend?
 						</p>
 						<a 
-							href="https://forms.hackclub.com/daydream-Toronto"
+							href="https://forms.hackclub.com/daydream-toronto"
 							class="inline-block px-8 py-4 bg-gradient-to-r from-[#E472AB] to-[#F2993E] text-white rounded-full hover:shadow-[0_8px_20px_rgba(228,114,171,0.4)] hover:-translate-y-1 active:translate-y-0 transition-all duration-200 font-sans text-xl font-bold cursor-pointer relative overflow-hidden transform hover:scale-105"
 						>
 							Sign up now! ✨
@@ -639,7 +639,7 @@
 				Sign up today for an amazing adventure. Spots are limited!
 			</p>
 			<a
-				href="https://forms.hackclub.com/daydream-Toronto"
+				href="https://forms.hackclub.com/daydream-toronto"
 				target="_blank"
 				class="inline-block px-8 py-4 bg-pink border-b-4 border-b-pink-dark text-white rounded-full hover:shadow-[0_4px_0_0_theme(colors.pink.dark)] hover:-translate-y-[4px] active:border-transparent active:shadow-none active:translate-y-0 transition-all duration-100 font-sans text-xl cursor-pointer relative overflow-hidden"
 			>
@@ -876,7 +876,7 @@
 				Your support makes this event possible and helps nurture the next generation of innovators.
 			</p>
 			<a
-				href="mailto:Toronto@daydream.hackclub.com?subject=Sponsorship%20Inquiry%20-%20Daydream%20Toronto"
+				href="mailto:toronto@daydream.hackclub.com?subject=Sponsorship%20Inquiry%20|%20Daydream%20Toronto"
 				class="inline-block px-6 py-3 bg-pink border-b-4 border-b-pink-dark text-white rounded-full hover:shadow-[0_4px_0_0_theme(colors.pink.dark)] hover:-translate-y-[4px] active:border-transparent active:shadow-none active:translate-y-0 transition-all duration-100 font-sans text-lg cursor-pointer relative overflow-hidden"
 			>
 				Become a Sponsor
@@ -959,7 +959,7 @@
 			<img src="window-2.png" alt="window" class="w-full h-full object-contain max-md:scale-130 max-xl:scale-110 max-lg:scale-115">
 			<div class="absolute top-20 left-12 right-12 bottom-16 flex flex-col items-center justify-center text-center px-24 opacity-70 max-[900px]:mx-[15vw] max-sm:mx-0 max-sm:px-5 max-lg:px-14 max-xl:px-18">
 				<h3 class="text-xl font-serif font-bold mb-4 max-lg:mb-0 max-md:text-base">What if I have more questions?</h3>
-				<p class="text-sm">Contact us! Feel free to reach out in the #daydream-Toronto channel on Hack Club Slack or email us at Toronto@daydream.hackclub.com</p>
+				<p class="text-sm">Contact us! Feel free to reach out in the #daydream-toronto channel on Hack Club Slack or email us at toronto@daydream.hackclub.com</p>
 			</div>
 		</div>
 

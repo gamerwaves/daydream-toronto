@@ -241,8 +241,8 @@
 		hiddenEmailInput.value = email;
 		hiddenForm.submit();
 		
-		// Open the Hackclub registration form with email parameter for Ottawa event
-		window.open(`https://forms.hackclub.com/daydream-ottawa?email=${encodeURIComponent(email)}`, '_blank');
+		// Open the Hackclub registration form with email parameter for Toronto event
+		window.open(`https://forms.hackclub.com/daydream-Toronto?email=${encodeURIComponent(email)}`, '_blank');
 		
 		// Clear the email input
 		emailInput.value = '';
@@ -383,7 +383,7 @@
 </style>
 
 <svelte:head>
-	<title>Daydream Ottawa - Game Jam for High Schoolers</title>
+	<title>Daydream Toronto - Game Jam for High Schoolers</title>
 </svelte:head>
 
 <div class="absolute top-0 left-0 w-full h-full bg-[url('brushstroking.png')] bg-size-[100vw_100vh] bg-repeat mix-blend-overlay opacity-60 pointer-events-none"></div>
@@ -422,13 +422,13 @@
 		<h4
 			class="text-2xl opacity-90 mt-2 font-serif bg-gradient-to-b from-[#487DAB] to-[#3F709A] bg-clip-text text-transparent max-sm:text-xl"
 		>
-			Ottawa - September 27th & 28th, 2025
+			Toronto - September 27th & 28th, 2025
 		</h4>
 	</div>
 	
 	<div class="mt-8 flex flex-col items-center gap-3 z-10 max-md:scale-90">
 		<a
-			href="https://forms.hackclub.com/daydream-ottawa"
+			href="https://forms.hackclub.com/daydream-Toronto"
 			target="_blank"
 			class="inline-block px-8 py-4 bg-pink border-b-4 border-b-pink-dark text-white rounded-full hover:shadow-[0_4px_0_0_theme(colors.pink.dark)] hover:-translate-y-[4px] active:border-transparent active:shadow-none active:translate-y-0 transition-all duration-100 font-sans text-xl cursor-pointer relative overflow-hidden"
 		>
@@ -483,14 +483,14 @@
 			</div>
 			
 			<h2 class="text-5xl font-serif italic text-[#8B4513] mb-10 relative">
-				What's Daydream Ottawa?
+				What's Daydream Toronto?
 				<img src="/underline.svg" alt="" class="absolute left-0 -bottom-3 w-64 h-auto opacity-70">
 			</h2>
 			
 			<div class="text-[#8B4513] font-serif text-xl leading-relaxed space-y-8">
 				<div class="relative">
 					<p class="relative z-10">
-						Daydream Ottawa is a <em class="italic font-bold bg-gradient-to-r from-[#E472AB] to-[#F2993E] bg-clip-text text-transparent">game jam</em> for high schoolers happening in Ottawa, 
+						Daydream Toronto is a <em class="italic font-bold bg-gradient-to-r from-[#E472AB] to-[#F2993E] bg-clip-text text-transparent">game jam</em> for high schoolers happening in Toronto, 
 						where you can build the most creative games you can think of! Whether it's a platformer that defies physics, 
 						a puzzle game that makes people think differently, or that wild game idea you've always wanted to try - 
 						Daydream is the place to make it happen.
@@ -501,7 +501,7 @@
 				
 				<div class="relative">
 					<p>
-						No matter your experience level, Daydream Ottawa needs you and your creative ideas! We'll provide workshops, 
+						No matter your experience level, Daydream Toronto needs you and your creative ideas! We'll provide workshops, 
 						mentors, and everything you need to bring your game concepts to life.
 					</p>
 					<div class="absolute -left-6 top-2 opacity-25 pointer-events-none text-2xl animate-pulse ![animation-duration:2.5s] ![animation-delay:0.5s]">💡</div>
@@ -509,7 +509,7 @@
 				
 				<div class="relative text-center my-12">
 					<p class="font-bold text-3xl bg-gradient-to-r from-[#8B4513] to-[#CD853F] bg-clip-text text-transparent relative inline-block">
-						What's happening at Daydream Ottawa?
+						What's happening at Daydream Toronto?
 						<img src="/underline.svg" alt="" class="absolute left-1/2 -translate-x-1/2 -bottom-2 w-full h-auto opacity-50">
 					</p>
 					<div class="absolute -top-2 -right-8 opacity-30 pointer-events-none text-2xl">🎯</div>
@@ -517,7 +517,7 @@
 				</div>
 				
 				<p class="text-center text-lg">
-					Daydream Ottawa is a <span class="font-bold text-2xl bg-gradient-to-r from-[#E472AB] to-[#639DEB] bg-clip-text text-transparent">24-hour event</span> - Here's a rough schedule!
+					Daydream Toronto is a <span class="font-bold text-2xl bg-gradient-to-r from-[#E472AB] to-[#639DEB] bg-clip-text text-transparent">24-hour event</span> - Here's a rough schedule!
 				</p>
 				
 				<div class="bg-gradient-to-br from-[#F5F5DC] to-[#FFF8DC] p-8 rounded-2xl border-3 border-[#D2B48C] text-base space-y-3 shadow-lg relative overflow-hidden">
@@ -593,7 +593,7 @@
 							Ready for an amazing weekend?
 						</p>
 						<a 
-							href="https://forms.hackclub.com/daydream-ottawa"
+							href="https://forms.hackclub.com/daydream-Toronto"
 							class="inline-block px-8 py-4 bg-gradient-to-r from-[#E472AB] to-[#F2993E] text-white rounded-full hover:shadow-[0_8px_20px_rgba(228,114,171,0.4)] hover:-translate-y-1 active:translate-y-0 transition-all duration-200 font-sans text-xl font-bold cursor-pointer relative overflow-hidden transform hover:scale-105"
 						>
 							Sign up now! ✨
@@ -618,7 +618,7 @@
 	
 	<div class="max-w-4xl mx-auto text-center px-8">
 		<h2 class="text-5xl font-serif italic text-[#8B4513] mb-8">
-			Where is Daydream Ottawa?
+			Where is Daydream Toronto?
 		</h2>
 		
 		<div class="bg-white p-8 rounded-lg border-2 border-[#AA8B83] shadow-lg inline-block">
@@ -627,7 +627,7 @@
 			</p>
 			<p class="text-lg text-[#8B4513] mb-6">
 				[Street Address]<br>
-				Ottawa, ON [Postal Code], Canada
+				Toronto, ON [Postal Code], Canada
 			</p>
 			<p class="text-base text-[#8B4513] italic">
 				*Exact venue details will be confirmed and shared with registered participants soon!
@@ -639,11 +639,11 @@
 				Sign up today for an amazing adventure. Spots are limited!
 			</p>
 			<a
-				href="https://forms.hackclub.com/daydream-ottawa"
+				href="https://forms.hackclub.com/daydream-Toronto"
 				target="_blank"
 				class="inline-block px-8 py-4 bg-pink border-b-4 border-b-pink-dark text-white rounded-full hover:shadow-[0_4px_0_0_theme(colors.pink.dark)] hover:-translate-y-[4px] active:border-transparent active:shadow-none active:translate-y-0 transition-all duration-100 font-sans text-xl cursor-pointer relative overflow-hidden"
 			>
-				Sign up for Daydream Ottawa
+				Sign up for Daydream Toronto
 				<img
 					src="button-clouds.svg" 
 					alt="" 
@@ -738,7 +738,7 @@
 				title="Felt Map"
 				referrerpolicy="strict-origin-when-cross-origin">
 			</iframe>
-			<p class="absolute left-1/2 -translate-x-1/2 font-sans text-center text-2xl pt-12 max-sm:pt-40 max-sm:text-xl w-max max-w-[80vh] max-md:max-w-full md:px-12 text-[#60574b] z-10000 ">Join hackers from across Ottawa and beyond! <br> <span class="font-bold"><a class="underline hover:text-pink" href="https://forms.hackclub.com/daydream-ottawa">Register</a> for Daydream Ottawa now!</span></p>
+			<p class="absolute left-1/2 -translate-x-1/2 font-sans text-center text-2xl pt-12 max-sm:pt-40 max-sm:text-xl w-max max-w-[80vh] max-md:max-w-full md:px-12 text-[#60574b] z-10000 ">Join hackers from across Toronto and beyond! <br> <span class="font-bold"><a class="underline hover:text-pink" href="https://forms.hackclub.com/daydream-Toronto">Register</a> for Daydream Toronto now!</span></p>
 		</div>
 	</div>
 	<div class="max-md:h-136"></div>
@@ -759,7 +759,7 @@
 			<img src="/underline.svg" alt="" class="absolute left-1/2 -translate-x-1/2 -bottom-3 w-80 h-auto opacity-70">
 		</h2>
 		<p class="text-xl text-[#8B4513] mb-16 font-serif opacity-90">
-			Thank you to our incredible sponsors who make Daydream Ottawa possible!
+			Thank you to our incredible sponsors who make Daydream Toronto possible!
 		</p>
 		
 		<!-- Platinum Tier -->
@@ -869,14 +869,14 @@
 		<div class="mt-16 p-8 bg-[#FFF8DC] bg-opacity-90 rounded-2xl border-2 border-[#AA8B83] shadow-lg relative overflow-hidden">
 			<img src="button-clouds.svg" alt="" class="absolute bottom-0 left-1/2 -translate-x-1/2 w-full opacity-20 pointer-events-none">
 			<h3 class="text-2xl font-serif font-bold text-[#8B4513] mb-4">
-				Want to sponsor Daydream Ottawa?
+				Want to sponsor Daydream Toronto?
 			</h3>
 			<p class="text-[#8B4513] mb-6 font-serif">
-				Help us create an amazing experience for young developers in Ottawa! 
+				Help us create an amazing experience for young developers in Toronto! 
 				Your support makes this event possible and helps nurture the next generation of innovators.
 			</p>
 			<a
-				href="mailto:ottawa@daydream.hackclub.com?subject=Sponsorship%20Inquiry%20-%20Daydream%20Ottawa"
+				href="mailto:Toronto@daydream.hackclub.com?subject=Sponsorship%20Inquiry%20-%20Daydream%20Toronto"
 				class="inline-block px-6 py-3 bg-pink border-b-4 border-b-pink-dark text-white rounded-full hover:shadow-[0_4px_0_0_theme(colors.pink.dark)] hover:-translate-y-[4px] active:border-transparent active:shadow-none active:translate-y-0 transition-all duration-100 font-sans text-lg cursor-pointer relative overflow-hidden"
 			>
 				Become a Sponsor
@@ -904,8 +904,8 @@
 		<div class="relative transform -rotate-2">
 			<img src="window-3.png" alt="window" class="w-full h-full object-contain max-md:scale-130 max-xl:scale-110 max-lg:scale-115">
 			<div class="absolute top-20 left-12 right-12 bottom-16 flex flex-col items-center justify-center text-center px-24 opacity-70 max-[900px]:mx-[15vw] max-sm:mx-0 max-sm:px-5 max-lg:px-14 max-xl:px-18">
-				<h3 class="text-xl font-serif font-bold mb-4 max-lg:mb-0 max-md:text-base">Who can participate in Daydream Ottawa?</h3>
-				<p class="text-sm">All high-school & upper-middle-school aged students from Ottawa and the surrounding region are welcome!</p>
+				<h3 class="text-xl font-serif font-bold mb-4 max-lg:mb-0 max-md:text-base">Who can participate in Daydream Toronto?</h3>
+				<p class="text-sm">All high-school & upper-middle-school aged students from Toronto and the surrounding region are welcome!</p>
 		</div>
 		</div>
 
@@ -913,8 +913,8 @@
 		<div class="relative transform rotate-1">
 			<img src="window-4.png" alt="window" class="w-full h-full object-contain max-md:scale-130 max-xl:scale-110 max-lg:scale-115">
 			<div class="absolute top-20 left-12 right-12 bottom-16 flex flex-col items-center justify-center text-center px-24 opacity-70 max-[900px]:mx-[15vw] max-sm:mx-0 max-sm:px-5 max-lg:px-14 max-xl:px-18">
-				<h3 class="text-xl font-serif font-bold mb-4 max-lg:mb-0 max-md:text-base">Where is Daydream Ottawa happening?</h3>
-				<p class="text-sm">The event will be held in Ottawa - exact location details will be shared with registered participants!</p>
+				<h3 class="text-xl font-serif font-bold mb-4 max-lg:mb-0 max-md:text-base">Where is Daydream Toronto happening?</h3>
+				<p class="text-sm">The event will be held in Toronto - exact location details will be shared with registered participants!</p>
 			</div>
 		</div>
 
@@ -923,7 +923,7 @@
 			<img src="window-2.png" alt="window" class="w-full h-full object-contain max-md:scale-130 max-xl:scale-110 max-lg:scale-115">
 			<div class="absolute top-20 left-12 right-12 bottom-16 flex flex-col items-center justify-center text-center px-24  opacity-70 max-[900px]:mx-[15vw] max-sm:mx-0 max-sm:px-5 max-lg:px-14 max-xl:px-18">
 				<h3 class="text-xl font-serif font-bold mb-4 max-lg:mb-0 max-md:text-base">All this, for free?</h3>
-				<p class="text-sm">Yep! Food, swag, workshops, and good vibes are all included. Plus travel support for those coming from outside Ottawa!</p>
+				<p class="text-sm">Yep! Food, swag, workshops, and good vibes are all included. Plus travel support for those coming from outside Toronto!</p>
 			</div>
 		</div>
 
@@ -940,7 +940,7 @@
 		<div class="relative transform rotate-1">
 			<img src="window-4.png" alt="window" class="w-full h-full object-contain max-md:scale-130 max-xl:scale-110 max-lg:scale-115">
 			<div class="absolute top-20 left-12 right-12 bottom-16 flex flex-col items-center justify-center text-center px-24 opacity-70 max-[900px]:mx-[15vw] max-sm:mx-0 max-sm:px-5 max-lg:px-14 max-xl:px-18">
-				<h3 class="text-xl font-serif font-bold mb-4 max-lg:mb-1 max-md:text-base">How do I register for Daydream Ottawa?</h3>
+				<h3 class="text-xl font-serif font-bold mb-4 max-lg:mb-1 max-md:text-base">How do I register for Daydream Toronto?</h3>
 				<p class="text-sm">Simply enter your email above or click the registration link! We'll send you all the details about location, schedule, and what to bring.</p>
 			</div>
 		</div>
@@ -959,7 +959,7 @@
 			<img src="window-2.png" alt="window" class="w-full h-full object-contain max-md:scale-130 max-xl:scale-110 max-lg:scale-115">
 			<div class="absolute top-20 left-12 right-12 bottom-16 flex flex-col items-center justify-center text-center px-24 opacity-70 max-[900px]:mx-[15vw] max-sm:mx-0 max-sm:px-5 max-lg:px-14 max-xl:px-18">
 				<h3 class="text-xl font-serif font-bold mb-4 max-lg:mb-0 max-md:text-base">What if I have more questions?</h3>
-				<p class="text-sm">Contact us! Feel free to reach out in the #daydream-ottawa channel on Hack Club Slack or email us at ottawa@daydream.hackclub.com</p>
+				<p class="text-sm">Contact us! Feel free to reach out in the #daydream-Toronto channel on Hack Club Slack or email us at Toronto@daydream.hackclub.com</p>
 			</div>
 		</div>
 
@@ -967,7 +967,7 @@
 		<div class="relative transform -rotate-1">
 			<img src="window-1.png" alt="window" class="w-full h-full object-contain max-md:scale-130 max-xl:scale-110 max-lg:scale-115">
 			<div class="absolute top-20 left-12 right-12 bottom-16 flex flex-col items-center justify-center text-center px-24 opacity-70 max-[900px]:mx-[15vw] max-sm:mx-0 max-sm:px-5 max-lg:px-14 max-xl:px-18">
-				<h3 class="text-xl font-serif font-bold mb-4 max-lg:mb-0 max-md:text-base">What can I make at Daydream Ottawa?</h3>
+				<h3 class="text-xl font-serif font-bold mb-4 max-lg:mb-0 max-md:text-base">What can I make at Daydream Toronto?</h3>
 				<p class="text-sm">ANY type of game based on the theme! Platformer, visual novel, clicker game, VR experience, mobile game - be as creative as possible!</p>
 			</div>
 		</div>
